@@ -36,6 +36,20 @@ Installation
 * http://gdata.youtube.com/feeds/api/standardfeeds/most_popular?alt=json&v=2
 * http://twitter.com/statuses/public_timeline.json
 
+FOR WEB
+-------
+
+```html
+<link href="json-format.css">
+<script src="json-format.js"></script>
+
+```
+
+```javascript
+var jf = new JSONFormator(json, node);
+// jf.destroy()
+```
+
 FAQ
 ---
 
